@@ -1,0 +1,165 @@
+default_voronoi_builder*		        O_OBJECT
+
+voronoi_diagram_double*		            O_OBJECT
+voronoi_cell_double*		            O_OBJECT
+voronoi_edge_double*		            O_OBJECT
+voronoi_vertex_double*		            O_OBJECT
+
+Boost_Polygon_Voronoi_Diagram*          O_OBJECT_WPKG
+Boost_Polygon_Voronoi_Cell*		        O_OBJECT_WPKG
+Boost_Polygon_Voronoi_Edge*		        O_OBJECT_WPKG
+Boost_Polygon_Voronoi_Vertex*	        O_OBJECT_WPKG
+
+medial_axis_double*		                O_OBJECT
+medial_axis_foot*                       O_OBJECT
+medial_axis_cell_double*		        O_OBJECT
+medial_axis_edge_double*		        O_OBJECT
+medial_axis_vertex_double*		        O_OBJECT
+
+Boost_Polygon_MedialAxis*		        O_OBJECT_WPKG
+Boost_Polygon_MedialAxis_Foot*         O_OBJECT_WPKG
+Boost_Polygon_MedialAxis_Cell*	        O_OBJECT_WPKG
+Boost_Polygon_MedialAxis_Edge*	        O_OBJECT_WPKG
+Boost_Polygon_MedialAxis_Vertex*       O_OBJECT_WPKG
+
+std::vector<voronoi_cell_double>        T_STD_VECTOR_OBJECT_CELL
+std::vector<voronoi_edge_double>        T_STD_VECTOR_OBJECT_EDGE
+std::vector<voronoi_vertex_double>      T_STD_VECTOR_OBJECT_VERTEX
+
+std::vector<Boost_Polygon_Voronoi_Cell>   T_STD_VECTOR_OBJECT_CELL
+std::vector<Boost_Polygon_Voronoi_Edge>   T_STD_VECTOR_OBJECT_EDGE
+std::vector<Boost_Polygon_Voronoi_Vertex> T_STD_VECTOR_OBJECT_VERTEX
+
+std::vector<medial_axis_cell_double>    T_STD_VECTOR_OBJECT_CELL
+std::vector<medial_axis_edge_double>    T_STD_VECTOR_OBJECT_EDGE
+std::vector<medial_axis_vertex_double>  T_STD_VECTOR_OBJECT_VERTEX
+
+std::vector<Boost_Polygon_MedialAxis_Cell>   T_STD_VECTOR_OBJECT_CELL
+std::vector<Boost_Polygon_MedialAxis_Edge>   T_STD_VECTOR_OBJECT_EDGE
+std::vector<Boost_Polygon_MedialAxis_Vertex> T_STD_VECTOR_OBJECT_VERTEX
+
+
+SourceCategory                          T_ENUM
+
+std::size_t			                    T_UV
+I32                                     T_IV
+
+INPUT
+O_OBJECT_WPKG
+	// for input, this is just a copy of standard O_OBJECT
+	if( sv_isobject($arg) && (SvTYPE(SvRV($arg)) == SVt_PVMG) )
+		$var = ($type)SvIV((SV*)SvRV( $arg ));
+	else{
+		warn( \"${Package}::$func_name() -- $var is not a blessed SV reference\" );
+		XSRETURN_UNDEF;
+	}
+
+OUTPUT
+
+O_OBJECT_WPKG
+	sv_setref_pv( $arg, "${ my $vec_type = $type; $vec_type =~ s/(_PTR| *\*)$//i; $vec_type =~ s/_+/::/g; \$vec_type }", (void*)$var );
+
+T_STD_VECTOR_OBJECT
+    AV* av = newAV();
+	$arg = newRV_noinc((SV*)av);
+	const unsigned int len = $var.size();
+    if (len) av_extend(av, len-1);
+	for (unsigned int i = 0; i < len; i++) {
+      av_store(av, i, 
+        sv_setref_pv( newSV(0),
+            // We extract the class of object in the vector from 
+            // between the < > in the full vector type string.
+            // Worked fine until we realized all are vectors do really
+            // need seperate processing for other reasons.
+            "${ (my $vec_type = $type) =~ s/^[^<]+<([^,]+)>/$1/; \$vec_type }",
+            &(${var}[i])
+        ) 
+      );
+	}
+T_STD_VECTOR_OBJECT_EDGE
+    AV* av = newAV();
+	$arg = newRV_noinc((SV*)av);
+	const unsigned int len = $var.size();
+    if (len) av_extend(av, len-1);
+	for (unsigned int i = 0; i < len; i++) {
+      /*
+      Perl_warn(aTHX_ \"EDGEVEC [%lu] %lu =?= %lu, %lu \" , 
+        (unsigned long) i,
+        (unsigned long) &(${var}[i]),
+        (unsigned long) ${var}[i].twin()->twin(),
+        (unsigned long) ${var}[i].twin()->vertex0() ? (unsigned long) ${var}[i].twin()->vertex0()->x() : (unsigned long) 99
+      );
+      */
+      av_store(av, i,
+        sv_setref_pv( newSV(0), 
+            "${ (my $vec_type = $type) =~ s/^[^<]+<([^,]+)>/$1/; $vec_type =~ s/_+/::/g; \$vec_type }",
+            //&(${var}[i]) <-- NOPE!
+            // To get the real pointer for the edge, you've got ask for it from
+            // from the edge's twin!
+            // Something about non-const vector type looking at a const vector, 
+            // I think. Couldn't solve it by sprinkling const everywhere
+            // (for two days), so just used this hack to get at the real 
+            // pointers we want.
+            // Without this, you get get partially usable edges, but their
+            // twin(), next(), prev() edges aren't really there, and you get
+            // seg faults when you try to use them (use their members, really).
+            // Probably maybe because the vector we're looping over here is
+            // presenting a copy of the const edge, and that copy doesn't
+            // give us the real pointers for these other edges. Weird that
+            // vertex0() would work though.
+            // Anyway, the twin() of my twin() is my friend.
+            ${var}[i].twin()->twin()
+        ) 
+      );
+	}
+
+T_STD_VECTOR_OBJECT_VERTEX
+    AV* av = newAV();
+	$arg = newRV_noinc((SV*)av);
+	const unsigned int len = $var.size();
+    if (len) av_extend(av, len-1);
+	for (unsigned int i = 0; i < len; i++) {
+      /*
+      Perl_warn(aTHX_ \"VERTEXVEC [%lu] %lu =?= %lu, %lu \" , 
+        (unsigned long) i,
+        (unsigned long) &(${var}[i]),
+        (unsigned long) ${var}[i].incident_edge()->vertex0(),
+        (unsigned long) ${var}[i].incident_edge()->vertex0() ? (unsigned long) ${var}[i].incident_edge()->vertex0()->x() : (unsigned long) 99
+      );
+      */
+
+      if (${var}[i].incident_edge() == NULL) {Perl_warn(aTHX_ \"VERTEXVEC %lu [%lu]\", (unsigned long) i, (unsigned long) &(${var}[i]));}
+
+      av_store(av, i,
+        sv_setref_pv( newSV(0), 
+            "${ (my $vec_type = $type) =~ s/^[^<]+<([^,]+)>/$1/; $vec_type =~ s/_+/::/g; \$vec_type }",
+            // Similar to funny business for edges.
+            ${var}[i].incident_edge()->vertex0()
+        ) 
+      );
+	}
+
+T_STD_VECTOR_OBJECT_CELL
+    AV* av = newAV();
+	$arg = newRV_noinc((SV*)av);
+	const unsigned int len = $var.size();
+    if (len) av_extend(av, len-1);
+	for (unsigned int i = 0; i < len; i++) {
+      /*
+      Perl_warn(aTHX_ \"CELLVEC [%lu] %lu =?= %lu \" , 
+        (unsigned long) i,
+        (unsigned long) &(${var}[i]),
+        (unsigned long) ${var}[i].incident_edge()->cell()
+      );
+      */
+      av_store(av, i,
+        sv_setref_pv( newSV(0), 
+            "${ (my $vec_type = $type) =~ s/^[^<]+<([^,]+)>/$1/; $vec_type =~ s/_+/::/g; \$vec_type }",
+            // Similar to funny business for edges.
+            (${var}[i].is_degenerate() // means it doesn't have an incident edge
+             ? &(${var}[i]) // might be okay in this case, since other cell members are not pointers to outside objects
+             : ${var}[i].incident_edge()->cell()
+            )
+        ) 
+      );
+	}

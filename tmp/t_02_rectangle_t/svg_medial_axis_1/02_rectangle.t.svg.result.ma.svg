@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 1052.3622 744.09448"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="02_rectangle.t.svg">
+  <style
+     type="text/css"
+     id="style6382"><![CDATA[
+
+.vp {;stroke-opacity:0.5;fill:none;stroke:gray;stroke-width:0.45;}
+.vc {;stroke-opacity:1;fill:yellow;fill-opacity:0.3;stroke:white;stroke-width:0.495;}
+
+]]></style>
+  <defs>
+        <marker id="edge_arrow"
+                viewBox="0 0 10 10" 
+                refX="1" refY="5"
+                markerWidth="6" 
+                markerHeight="6"
+                orient="auto"
+                fill="currentColor">
+            <path d="M 0 0 L 10 5 L 0 10 z" />
+	    </marker>
+        <marker id="inf_edge_arrow"
+                viewBox="0 0 10 10" 
+                refX="1" refY="5"
+                markerWidth="6" 
+                markerHeight="6"
+                orient="auto"
+                fill="red">
+            <path d="M 0 0 L 10 5 L 0 10 z" />
+	    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#111111"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.147541"
+     inkscape:cx="1082.1529"
+     inkscape:cy="668.17286"
+     inkscape:document-units="mm"
+     inkscape:current-layer="test geometry"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="1000"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Test Geometry"
+     inkscape:groupmode="layer"
+     id="test geometry"
+     transform="translate(0,-308.26772)">
+    <g
+       id="test_path_container"
+       transform="matrix(1,0,0,-1,144.0575,855.35553)">
+      <path
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.30000001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 0,0 L 400,0 L 400,500 L 0,500 Z"
+         id="path3348"
+         inkscape:connector-curvature="0"
+         class="test_path"
+         sodipodi:nodetypes="cc" />
+      <g
+         id="test result"
+         inkscape:groupmode="layer"
+         inkscape:label="Test Result" ><path class="vc" style="fill-rule:non-zero;fill-opacity:0.7;fill:#7d1f1f;stroke:yellow;stroke-width:0.45;" d="M0,0L0,500L0,500L0,500L0,500L400,500L400,500L400,500L400,500L400,0L400,0L400,0L400,0L0,0L0,0L0,0ZM0.000000,0.000000L0.000000,0.000000L0.000000,0.000000L0.000000,0.000000L400.000000,-0.000000L400.000000,-0.000000L400.000000,-0.000000L400.000000,-0.000000L400.000000,500.000000L400.000000,500.000000L400.000000,500.000000L400.000000,500.000000L-0.000000,500.000000L-0.000000,500.000000L-0.000000,500.000000L-0.000000,500.000000L0.000000,0.000000Z" />
+<path class="vc" style="fill-rule:non-zero;fill-opacity:0.7;fill:#9797ff;stroke:yellow;stroke-width:0.45;" d="M400,0L400,200L400,300L400,500L200,500L0,500L0,300L0,200L0,0L200,0ZM200.000000,200.000000L0.000000,0.000000L200.000000,200.000000L200.000000,300.000000L-0.000000,500.000000L200.000000,300.000000L400.000000,500.000000L200.000000,300.000000L200.000000,200.000000L400.000000,-0.000000L200.000000,200.000000Z" />
+<g inkscape:groupmode="layer" inkscape:label="external secondary" id="external secondary">
+<g>
+<path class="vp inf" id="41944928" previd="41945056" nextid="41945440" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M0.000000,0.000000L-128.062485,0.000000" />
+<circle id="41944928_foot" cx="0" cy="0" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="41945056" previd="41945184" nextid="41944928" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M-128.062485,0.000000L0.000000,0.000000" />
+<circle id="41945056_foot" cx="0" cy="0" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="41945184" previd="41945312" nextid="41945056" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M-0.000000,500.000000L-128.062485,500.000000" />
+<circle id="41945184_foot" cx="0" cy="500" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="41945312" previd="41945952" nextid="41945184" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M-128.062485,500.000000L-0.000000,500.000000" />
+<circle id="41945312_foot" cx="0" cy="500" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="41945440" previd="41944928" nextid="41945568" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M-0.000000,-128.062485L0.000000,0.000000" />
+<circle id="41945440_foot" cx="0" cy="0" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="41945568" previd="41945440" nextid="41946464" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M0.000000,0.000000L0.000000,-128.062485" />
+<circle id="41945568_foot" cx="0" cy="0" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="41945952" previd="41946080" nextid="41945312" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M-0.000000,500.000000L0.000000,628.062485" />
+<circle id="41945952_foot" cx="0" cy="500" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="41946080" previd="41948128" nextid="41945952" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M-0.000000,628.062485L-0.000000,500.000000" />
+<circle id="41946080_foot" cx="0" cy="500" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="41946464" previd="41945568" nextid="41946592" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M400.000000,-128.062485L400.000000,-0.000000" />
+<circle id="41946464_foot" cx="400" cy="0" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="41946592" previd="41946464" nextid="41946720" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M400.000000,-0.000000L400.000000,-128.062485" />
+<circle id="41946592_foot" cx="400" cy="0" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="41946720" previd="41946592" nextid="41946848" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M528.062485,-0.000000L400.000000,-0.000000" />
+<circle id="41946720_foot" cx="400" cy="0" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="41946848" previd="41946720" nextid="41947744" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M400.000000,-0.000000L528.062485,0.000000" />
+<circle id="41946848_foot" cx="400" cy="0" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="41947744" previd="41946848" nextid="41947872" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M528.062485,500.000000L400.000000,500.000000" />
+<circle id="41947744_foot" cx="400" cy="500" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="41947872" previd="41947744" nextid="41948000" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M400.000000,500.000000L528.062485,500.000000" />
+<circle id="41947872_foot" cx="400" cy="500" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="41948000" previd="41947872" nextid="41948128" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M400.000000,628.062485L400.000000,500.000000" />
+<circle id="41948000_foot" cx="400" cy="500" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="41948128" previd="41948000" nextid="41946080" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M400.000000,500.000000L400.000000,628.062485" />
+<circle id="41948128_foot" cx="400" cy="500" r="0.9" style="fill:green" />
+</g>
+</g><g inkscape:groupmode="layer" inkscape:label="external primary" id="external primary">
+</g><g inkscape:groupmode="layer" inkscape:label="internal secondary" id="internal secondary">
+</g><g inkscape:groupmode="layer" inkscape:label="internal primary" id="internal primary">
+<g>
+<path class="vp" id="41945696" previd="41947104" nextid="41945824" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M200.000000,200.000000L0.000000,0.000000" />
+<circle id="41945696_foot" cx="200" cy="0" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="41945824" previd="41945696" nextid="41947360" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M0.000000,0.000000L200.000000,200.000000" />
+<circle id="41945824_foot" cx="0" cy="0" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="41946208" previd="41947360" nextid="41946336" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M200.000000,300.000000L-0.000000,500.000000" />
+<circle id="41946208_foot" cx="0" cy="300" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="41946336" previd="41946208" nextid="41947616" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M-0.000000,500.000000L200.000000,300.000000" />
+<circle id="41946336_foot" cx="0" cy="500" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="41946976" previd="41947232" nextid="41947104" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M200.000000,200.000000L400.000000,-0.000000" />
+<circle id="41946976_foot" cx="400" cy="200" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="41947104" previd="41946976" nextid="41945696" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M400.000000,-0.000000L200.000000,200.000000" />
+<circle id="41947104_foot" cx="400" cy="0" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="41947232" previd="41947488" nextid="41946976" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M200.000000,300.000000L200.000000,200.000000" />
+<circle id="41947232_foot" cx="400" cy="300" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="41947360" previd="41945824" nextid="41946208" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M200.000000,200.000000L200.000000,300.000000" />
+<circle id="41947360_foot" cx="0" cy="200" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="41947488" previd="41947616" nextid="41947232" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M400.000000,500.000000L200.000000,300.000000" />
+<circle id="41947488_foot" cx="400" cy="500" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="41947616" previd="41946336" nextid="41947488" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M200.000000,300.000000L400.000000,500.000000" />
+<circle id="41947616_foot" cx="200" cy="500" r="0.9" style="fill:green" />
+</g>
+</g><g inkscape:groupmode="layer" inkscape:label="limbo 2ndary" id="limbo 2ndary">
+</g><g inkscape:groupmode="layer" inkscape:label="limbo primary" id="limbo primary">
+</g></g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="802.98932"
+       y="1030.0981"
+       id="test_scale"
+       sodipodi:linespacing="125%"
+       test_scale="text3430"><tspan
+         sodipodi:role="line"
+         id="tspan3438"
+         x="802.98932"
+         y="1030.0981">10000</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="810.41071"
+       y="978.14874"
+       id="text3434"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3436"
+         x="810.41071"
+         y="978.14874">scale:</tspan></text>
+  </g>
+</svg>

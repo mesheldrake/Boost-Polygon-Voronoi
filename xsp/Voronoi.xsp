@@ -1,0 +1,190 @@
+%module{Boost::Polygon::Voronoi};
+%package{Boost::Polygon::Voronoi};
+%loadplugin{feature::default_xs_typemap};
+
+%{
+#include <myinit.h>
+%}
+
+%name{Boost::Polygon::Voronoi::builder} class default_voronoi_builder
+{
+  default_voronoi_builder(); // default expects 32 bit integer input
+  ~default_voronoi_builder();
+  
+  // the C++ API
+  std::size_t insert_point(I32 x, I32 y);
+  std::size_t insert_segment(I32 x1, I32 y1, I32 x2, I32 y2);
+  void clear();
+
+  // our extended API
+  medial_axis_double* medial_axis()
+      %code{%
+        medial_axis_double * ma = new medial_axis_double;
+        THIS->construct(ma);
+        RETVAL = ma;
+      %}
+  ;
+
+  voronoi_diagram_double* voronoi_diagram()
+      %code{%
+        voronoi_diagram_double * vd = new voronoi_diagram_double;
+        THIS->construct(vd);
+        RETVAL = vd;
+      %}
+  ;
+
+};
+
+class voronoi_diagram_double
+{
+    std::vector<Boost_Polygon_Voronoi_Vertex> vertices();
+    std::vector<Boost_Polygon_Voronoi_Edge> edges();
+    std::vector<Boost_Polygon_Voronoi_Cell> cells();
+
+    std::size_t num_vertices();
+    std::size_t num_edges();
+    std::size_t num_cells();
+};
+
+class medial_axis_double
+{
+    std::vector<Boost_Polygon_MedialAxis_Vertex> vertices();
+    std::vector<Boost_Polygon_MedialAxis_Edge> edges();
+    std::vector<Boost_Polygon_MedialAxis_Cell> cells();
+
+    std::size_t num_cells();
+    std::size_t num_edges();
+    std::size_t num_vertices();
+
+    std::string event_log();
+};
+
+%name{Boost::Polygon::MedialAxis::Cell} class medial_axis_cell_double
+{
+  std::size_t source_index();
+  SourceCategory source_category();
+  Boost_Polygon_MedialAxis_Edge * incident_edge();
+  std::size_t color();
+  bool contains_point();
+  bool contains_segment();
+  bool is_degenerate();
+};
+
+%name{Boost::Polygon::MedialAxis::Edge} class medial_axis_edge_double
+{
+
+  Boost_Polygon_MedialAxis_Edge(bool is_linear, bool is_primary);
+
+  Boost_Polygon_MedialAxis_Cell * cell();
+  Boost_Polygon_MedialAxis_Vertex * vertex0();
+  Boost_Polygon_MedialAxis_Vertex * vertex1();
+  %name{set_vertex0} void vertex0(Boost_Polygon_MedialAxis_Vertex* v);
+  Boost_Polygon_MedialAxis_Edge * twin();
+  Boost_Polygon_MedialAxis_Edge * next();
+  Boost_Polygon_MedialAxis_Edge * prev();
+  %name{set_twin} void twin(Boost_Polygon_MedialAxis_Edge* e);
+  %name{set_next} void next(Boost_Polygon_MedialAxis_Edge* e);
+  %name{set_prev} void prev(Boost_Polygon_MedialAxis_Edge* e);
+  Boost_Polygon_MedialAxis_Edge * next_vd();
+  Boost_Polygon_MedialAxis_Edge * prev_vd();
+  std::size_t color();
+  %name{set_color} void color(std::size_t color);
+  Boost_Polygon_MedialAxis_Edge * rot_next();
+  Boost_Polygon_MedialAxis_Edge * rot_prev();
+  Boost_Polygon_MedialAxis_Edge * rot_next_vd();
+  Boost_Polygon_MedialAxis_Edge * rot_prev_vd();
+  bool is_finite();
+  bool is_infinite();
+  bool is_linear();
+  bool is_curved();
+  bool is_primary();
+  bool is_secondary();
+  bool is_internal();
+  bool is_external();
+
+  // foot is I32, largely because so often we're able to
+  // copy an existing input point - a point2d<I32> - directly
+  // into a new foot. It's exact. But what about with calculated feet?
+  // Consider whether this should be a double upstream. Will
+  // calc'd feet in doubles have enough precision - or even more?
+  
+  Boost_Polygon_MedialAxis_Foot * foot();
+  %name{set_foot}            void foot(double x, double y);
+
+  double theta();
+  double phi();
+  %name{set_theta} void theta(double theta);
+  %name{set_phi} void phi(double phi);
+  Boost_Polygon_MedialAxis_Foot * Q(); // not a foot though
+
+};
+
+%name{Boost::Polygon::MedialAxis::Vertex} class medial_axis_vertex_double
+{
+  Boost_Polygon_MedialAxis_Vertex(double x, double y, double r);
+  double x();
+  double y();
+  double r();
+  Boost_Polygon_MedialAxis_Edge * incident_edge();
+  %name{set_incident_edge} void incident_edge(Boost_Polygon_MedialAxis_Edge * e);
+  std::size_t color();
+};
+
+%name{Boost::Polygon::MedialAxis::Foot} class medial_axis_foot
+{
+  double x();
+  double y();  
+};
+
+%name{Boost::Polygon::Voronoi::Cell} class voronoi_cell_double
+{
+  std::size_t source_index();
+  SourceCategory source_category();
+  Boost_Polygon_Voronoi_Edge* incident_edge();
+  std::size_t color();
+  bool contains_point();
+  bool contains_segment();
+  bool is_degenerate();
+};
+
+%name{Boost::Polygon::Voronoi::Edge} class voronoi_edge_double
+{
+  voronoi_edge_double(bool is_linear, bool is_primary);
+  //~voronoi_edge_double();
+  
+  Boost_Polygon_Voronoi_Cell *   cell();
+  Boost_Polygon_Voronoi_Vertex * vertex0();
+  Boost_Polygon_Voronoi_Vertex * vertex1();
+  Boost_Polygon_Voronoi_Edge *   twin();
+  Boost_Polygon_Voronoi_Edge *   next();
+  Boost_Polygon_Voronoi_Edge *   prev();
+  // We added next_vd() and prev_vd()
+  // to medial axis to preserve the ability to
+  // run a Voronoi-specific edge angle
+  // finding algorithm. To have that code work
+  // for both the Voronoi Diagram and the Medial Axis, 
+  // we'll use the *_vd() versions of prev and next, 
+  // and add those aliases here.
+  %name{next_vd} Boost_Polygon_Voronoi_Edge *     next();
+  %name{prev_vd} Boost_Polygon_Voronoi_Edge *     prev();
+  %name{rot_next_vd} Boost_Polygon_Voronoi_Edge * rot_next();
+  %name{rot_prev_vd} Boost_Polygon_Voronoi_Edge * rot_prev();
+
+  std::size_t color();
+  Boost_Polygon_Voronoi_Edge * rot_next();
+  Boost_Polygon_Voronoi_Edge * rot_prev();
+  bool is_finite();
+  bool is_infinite();
+  bool is_linear();
+  bool is_curved();
+  bool is_primary();
+  bool is_secondary();
+};
+
+%name{Boost::Polygon::Voronoi::Vertex} class voronoi_vertex_double
+{
+  double x();
+  double y();
+  Boost_Polygon_Voronoi_Edge* incident_edge();
+  std::size_t color();
+};

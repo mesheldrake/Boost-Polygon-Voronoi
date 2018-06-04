@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 1052.3622 744.09448"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="06_colinear_segments.t.svg">
+  <style
+     type="text/css"
+     id="style6382"><![CDATA[
+
+.vp {;stroke-opacity:0.5;fill:none;stroke:gray;stroke-width:1.5;}
+.vc {;stroke-opacity:1;fill:yellow;fill-opacity:0.3;stroke:white;stroke-width:1.65;}
+
+]]></style>
+  <defs>
+        <marker id="edge_arrow"
+                viewBox="0 0 10 10" 
+                refX="1" refY="5"
+                markerWidth="6" 
+                markerHeight="6"
+                orient="auto"
+                fill="currentColor">
+            <path d="M 0 0 L 10 5 L 0 10 z" />
+	    </marker>
+        <marker id="inf_edge_arrow"
+                viewBox="0 0 10 10" 
+                refX="1" refY="5"
+                markerWidth="6" 
+                markerHeight="6"
+                orient="auto"
+                fill="red">
+            <path d="M 0 0 L 10 5 L 0 10 z" />
+	    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#111111"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.93902268"
+     inkscape:cx="647.84265"
+     inkscape:cy="596.23117"
+     inkscape:document-units="mm"
+     inkscape:current-layer="test geometry"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="1000"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Test Geometry"
+     inkscape:groupmode="layer"
+     id="test geometry"
+     transform="translate(0,-308.26772)">
+    <g
+       id="test_path_container"
+       transform="matrix(1,0,0,-1,144.0575,855.35553)">
+      <path
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.30000001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 0,0 L 300,0 L 400,0 L 400,250 L 400,540 L 100,510 L 0,500 L 0,450 Z"
+         id="path3348"
+         inkscape:connector-curvature="0"
+         class="test_path"
+         sodipodi:nodetypes="cc" />
+      <g
+         id="test result"
+         inkscape:groupmode="layer"
+         inkscape:label="Test Result" ><path class="vc" style="fill-rule:non-zero;fill-opacity:0.7;fill:#7d4d4d;stroke:yellow;stroke-width:1.5;" d="M0,0L0,450L0,450L0,450L0,450L0,500L0,500L0,500L0,500L100,510L100,510L100,510L100,510L400,540L400,540L400,540L400,540L400,250L400,250L400,250L400,250L400,0L400,0L400,0L400,0L300,0L300,0L300,0L300,0L0,0L0,0L0,0ZM0.000000,0.000000L0.000000,0.000000L0.000000,0.000000L0.000000,0.000000L300.000000,0.000000L300.000000,0.000000L300.000000,0.000000L300.000000,0.000000L400.000000,-0.000000L400.000000,-0.000000L400.000000,-0.000000L400.000000,-0.000000L400.000000,250.000000L400.000000,250.000000L400.000000,250.000000L400.000000,250.000000L400.000000,540.000000L400.000000,540.000000L400.000000,540.000000L400.000000,540.000000L100.000000,510.000000L100.000000,510.000000L100.000000,510.000000L100.000000,510.000000L-0.000000,500.000000L-0.000000,500.000000L-0.000000,500.000000L-0.000000,500.000000L0.000000,450.000000L0.000000,450.000000L0.000000,450.000000L0.000000,450.000000L0.000000,0.000000Z" />
+<path class="vc" style="fill-rule:non-zero;fill-opacity:0.7;fill:#9e9eff;stroke:yellow;stroke-width:1.5;" d="M300,0L300,0L300,0L400,0L400,100L400,200L400,250L400,250L400,250L400,319.002487577582L400,540L180.0992561958,518.00992561958L100,510L100,510L100,510L49.7518595104995,504.97518595105L0,500L2.3283064365387e-14,450L0,450L0,450L0,399.501243788791L-9.31322574615479e-14,319.002487577583L0,250L0,200L0,0L200,0ZM200.000000,200.000000L0.000000,0.000000L200.000000,200.000000L200.000000,250.000000L200.000000,319.002488L111.049876,399.501244L55.249378,450.000000L0.000000,450.000000L55.249378,450.000000L-0.000000,500.000000L55.249378,450.000000L111.049876,399.501244L100.000000,510.000000L111.049876,399.501244L200.000000,319.002488L400.000000,540.000000L200.000000,319.002488L200.000000,250.000000L400.000000,250.000000L200.000000,250.000000L200.000000,200.000000L300.000000,100.000000L400.000000,-0.000000L300.000000,100.000000L300.000000,0.000000L300.000000,100.000000L200.000000,200.000000Z" />
+<g inkscape:groupmode="layer" inkscape:label="external secondary" id="external secondary">
+<g>
+<path class="vp inf" id="23179920" previd="23180048" nextid="23180944" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M0.000000,0.000000L-134.402381,0.000000" />
+<circle id="23179920_foot" cx="0" cy="0" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="23180048" previd="23180176" nextid="23179920" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M-134.402381,0.000000L0.000000,0.000000" />
+<circle id="23180048_foot" cx="0" cy="0" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="23180176" previd="23180304" nextid="23180048" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M0.000000,450.000000L-134.402381,450.000000" />
+<circle id="23180176_foot" cx="0" cy="450" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="23180304" previd="23180432" nextid="23180176" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M-134.402381,450.000000L0.000000,450.000000" />
+<circle id="23180304_foot" cx="0" cy="450" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="23180432" previd="23180560" nextid="23180304" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M0.000000,450.000000L-134.402381,450.000000" />
+<circle id="23180432_foot" cx="0" cy="450" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="23180560" previd="23180688" nextid="23180432" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M-134.402381,450.000000L0.000000,450.000000" />
+<circle id="23180560_foot" cx="0" cy="450" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="23180688" previd="23180816" nextid="23180560" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M-0.000000,500.000000L-134.402381,500.000000" />
+<circle id="23180688_foot" cx="0" cy="500" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="23180816" previd="23181456" nextid="23180688" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M-134.402381,500.000000L-0.000000,500.000000" />
+<circle id="23180816_foot" cx="0" cy="500" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="23180944" previd="23179920" nextid="23181072" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M-0.000000,-134.402381L0.000000,0.000000" />
+<circle id="23180944_foot" cx="0" cy="0" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="23181072" previd="23180944" nextid="23182992" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M0.000000,0.000000L0.000000,-134.402381" />
+<circle id="23181072_foot" cx="0" cy="0" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="23181456" previd="23181584" nextid="23180816" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M-0.000000,500.000000L-13.373537,633.735367" />
+<circle id="23181456_foot" cx="0" cy="500" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="23181584" previd="23181968" nextid="23181456" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M-13.373537,633.735367L-0.000000,500.000000" />
+<circle id="23181584_foot" cx="0" cy="500" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="23181968" previd="23182096" nextid="23181584" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M100.000000,510.000000L86.626463,643.735367" />
+<circle id="23181968_foot" cx="100" cy="510" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="23182096" previd="23182224" nextid="23181968" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M86.626463,643.735367L100.000000,510.000000" />
+<circle id="23182096_foot" cx="100" cy="510" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="23182224" previd="23182352" nextid="23182096" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M100.000000,510.000000L86.626463,643.735367" />
+<circle id="23182224_foot" cx="100" cy="510" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="23182352" previd="23186192" nextid="23182224" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M86.626463,643.735367L100.000000,510.000000" />
+<circle id="23182352_foot" cx="100" cy="510" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="23182992" previd="23181072" nextid="23183120" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M300.000000,-134.402381L300.000000,0.000000" />
+<circle id="23182992_foot" cx="300" cy="0" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="23183120" previd="23182992" nextid="23183248" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M300.000000,0.000000L300.000000,-134.402381" />
+<circle id="23183120_foot" cx="300" cy="0" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="23183248" previd="23183120" nextid="23183376" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M300.000000,-134.402381L300.000000,0.000000" />
+<circle id="23183248_foot" cx="300" cy="0" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="23183376" previd="23183248" nextid="23183504" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M300.000000,0.000000L300.000000,-134.402381" />
+<circle id="23183376_foot" cx="300" cy="0" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="23183504" previd="23183376" nextid="23183632" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M400.000000,-134.402381L400.000000,-0.000000" />
+<circle id="23183504_foot" cx="400" cy="0" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="23183632" previd="23183504" nextid="23183760" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M400.000000,-0.000000L400.000000,-134.402381" />
+<circle id="23183632_foot" cx="400" cy="0" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="23183760" previd="23183632" nextid="23183888" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M534.402381,-0.000000L400.000000,-0.000000" />
+<circle id="23183760_foot" cx="400" cy="0" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="23183888" previd="23183760" nextid="23184784" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M400.000000,-0.000000L534.402381,0.000000" />
+<circle id="23183888_foot" cx="400" cy="0" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="23184784" previd="23183888" nextid="23184912" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M534.402381,250.000000L400.000000,250.000000" />
+<circle id="23184784_foot" cx="400" cy="250" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="23184912" previd="23184784" nextid="23185040" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M400.000000,250.000000L534.402381,250.000000" />
+<circle id="23184912_foot" cx="400" cy="250" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="23185040" previd="23184912" nextid="23185168" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M534.402381,250.000000L400.000000,250.000000" />
+<circle id="23185040_foot" cx="400" cy="250" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="23185168" previd="23185040" nextid="23185808" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M400.000000,250.000000L534.402381,250.000000" />
+<circle id="23185168_foot" cx="400" cy="250" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="23185808" previd="23185168" nextid="23185936" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M534.402381,540.000000L400.000000,540.000000" />
+<circle id="23185808_foot" cx="400" cy="540" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="23185936" previd="23185808" nextid="23186064" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M400.000000,540.000000L534.402381,540.000000" />
+<circle id="23185936_foot" cx="400" cy="540" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="23186064" previd="23185936" nextid="23186192" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M386.626463,673.735367L400.000000,540.000000" />
+<circle id="23186064_foot" cx="400" cy="540" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="23186192" previd="23186064" nextid="23182352" style="stroke:orange;color:orange;" marker-end="url(#inf_edge_arrow)" d="M400.000000,540.000000L386.626463,673.735367" />
+<circle id="23186192_foot" cx="400" cy="540" r="3" style="fill:green" />
+</g>
+</g><g inkscape:groupmode="layer" inkscape:label="external primary" id="external primary">
+</g><g inkscape:groupmode="layer" inkscape:label="internal secondary" id="internal secondary">
+</g><g inkscape:groupmode="layer" inkscape:label="internal primary" id="internal primary">
+<g>
+<path class="vp" id="23181200" previd="23184400" nextid="23181328" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M200.000000,200.000000L0.000000,0.000000" />
+<circle id="23181200_foot" cx="200" cy="0" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="23181328" previd="23181200" nextid="23184656" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M0.000000,0.000000L200.000000,200.000000" />
+<circle id="23181328_foot" cx="0" cy="0" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="23181712" previd="23187216" nextid="23181840" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M55.249378,450.000000L-0.000000,500.000000" />
+<circle id="23181712_foot" cx="2.3283064365387e-14" cy="450" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="23181840" previd="23181712" nextid="23182608" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M-0.000000,500.000000L55.249378,450.000000" />
+<circle id="23181840_foot" cx="0" cy="500" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="23182480" previd="23182736" nextid="23187088" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M111.049876,399.501244L55.249378,450.000000" />
+<circle id="23182480_foot" cx="0" cy="399.501243788791" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="23182608" previd="23181840" nextid="23186832" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M55.249378,450.000000L111.049876,399.501244" />
+<circle id="23182608_foot" cx="49.7518595104995" cy="504.97518595105" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="23182736" previd="23185424" nextid="23182480" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M200.000000,319.002488L111.049876,399.501244" />
+<circle id="23182736_foot" cx="-9.31322574615479e-14" cy="319.002487577583" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="23182864" previd="23186960" nextid="23185680" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M111.049876,399.501244L200.000000,319.002488" />
+<circle id="23182864_foot" cx="100" cy="510" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="23184016" previd="23184272" nextid="23184144" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M300.000000,100.000000L400.000000,-0.000000" />
+<circle id="23184016_foot" cx="400" cy="100" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="23184144" previd="23184016" nextid="23186576" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M400.000000,-0.000000L300.000000,100.000000" />
+<circle id="23184144_foot" cx="400" cy="0" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="23184272" previd="23184528" nextid="23184016" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M200.000000,200.000000L300.000000,100.000000" />
+<circle id="23184272_foot" cx="400" cy="200" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="23184400" previd="23186704" nextid="23181200" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M300.000000,100.000000L200.000000,200.000000" />
+<circle id="23184400_foot" cx="300" cy="0" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="23184528" previd="23186448" nextid="23184272" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M200.000000,250.000000L200.000000,200.000000" />
+<circle id="23184528_foot" cx="400" cy="250" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="23184656" previd="23181328" nextid="23185424" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M200.000000,200.000000L200.000000,250.000000" />
+<circle id="23184656_foot" cx="0" cy="200" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="23185296" previd="23185552" nextid="23186320" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M200.000000,319.002488L200.000000,250.000000" />
+<circle id="23185296_foot" cx="400" cy="319.002487577582" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="23185424" previd="23184656" nextid="23182736" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M200.000000,250.000000L200.000000,319.002488" />
+<circle id="23185424_foot" cx="0" cy="250" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="23185552" previd="23185680" nextid="23185296" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M400.000000,540.000000L200.000000,319.002488" />
+<circle id="23185552_foot" cx="400" cy="540" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="23185680" previd="23182864" nextid="23185552" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M200.000000,319.002488L400.000000,540.000000" />
+<circle id="23185680_foot" cx="180.0992561958" cy="518.00992561958" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="23186320" previd="23185296" nextid="23186448" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M200.000000,250.000000L400.000000,250.000000" />
+<circle id="23186320_foot" cx="400" cy="250" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="23186448" previd="23186320" nextid="23184528" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M400.000000,250.000000L200.000000,250.000000" />
+<circle id="23186448_foot" cx="400" cy="250" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="23186576" previd="23184144" nextid="23186704" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M300.000000,100.000000L300.000000,0.000000" />
+<circle id="23186576_foot" cx="300" cy="0" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="23186704" previd="23186576" nextid="23184400" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M300.000000,0.000000L300.000000,100.000000" />
+<circle id="23186704_foot" cx="300" cy="0" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="23186832" previd="23182608" nextid="23186960" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M111.049876,399.501244L100.000000,510.000000" />
+<circle id="23186832_foot" cx="100" cy="510" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="23186960" previd="23186832" nextid="23182864" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M100.000000,510.000000L111.049876,399.501244" />
+<circle id="23186960_foot" cx="100" cy="510" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="23187088" previd="23182480" nextid="23187216" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M55.249378,450.000000L0.000000,450.000000" />
+<circle id="23187088_foot" cx="0" cy="450" r="3" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="23187216" previd="23187088" nextid="23181712" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M0.000000,450.000000L55.249378,450.000000" />
+<circle id="23187216_foot" cx="0" cy="450" r="3" style="fill:green" />
+</g>
+</g><g inkscape:groupmode="layer" inkscape:label="limbo 2ndary" id="limbo 2ndary">
+</g><g inkscape:groupmode="layer" inkscape:label="limbo primary" id="limbo primary">
+</g></g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="802.98932"
+       y="1030.0981"
+       id="test_scale"
+       sodipodi:linespacing="125%"
+       test_scale="text3430"><tspan
+         sodipodi:role="line"
+         id="tspan3438"
+         x="802.98932"
+         y="1030.0981">10000</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="810.41071"
+       y="978.14874"
+       id="text3434"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3436"
+         x="810.41071"
+         y="978.14874">scale:</tspan></text>
+  </g>
+</svg>

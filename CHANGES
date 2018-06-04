@@ -1,0 +1,8 @@
+Revision history for Perl extension Boost::Polygon::Voronoi.
+
+0.01 2016-02-28 17:45:00 PST
+
+  Extract relevant work from Boost-Geometry-Utils
+  and pare down to focus on Voronoi and medial
+  axis features.
+

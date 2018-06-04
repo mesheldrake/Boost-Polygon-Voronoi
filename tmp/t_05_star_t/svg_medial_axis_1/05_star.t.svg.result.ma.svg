@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 1052.3622 744.09448"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="05_star.t.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#111111"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.93902268"
+     inkscape:cx="384.19305"
+     inkscape:cy="352.36059"
+     inkscape:document-units="mm"
+     inkscape:current-layer="test geometry"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="1000"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <style
+     id="style6382"
+     type="text/css">
+
+.vp {;stroke-opacity:0.5;fill:none;stroke:gray;stroke-width:0.45;}
+.vc {;stroke-opacity:1;fill:yellow;fill-opacity:0.3;stroke:white;stroke-width:0.495;}
+
+</style>
+  <defs>
+        <marker id="edge_arrow"
+                viewBox="0 0 10 10" 
+                refX="1" refY="5"
+                markerWidth="6" 
+                markerHeight="6"
+                orient="auto"
+                fill="currentColor">
+            <path d="M 0 0 L 10 5 L 0 10 z" />
+	    </marker>
+        <marker id="inf_edge_arrow"
+                viewBox="0 0 10 10" 
+                refX="1" refY="5"
+                markerWidth="6" 
+                markerHeight="6"
+                orient="auto"
+                fill="red">
+            <path d="M 0 0 L 10 5 L 0 10 z" />
+	    </marker>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-308.26772)"
+     id="test geometry"
+     inkscape:groupmode="layer"
+     inkscape:label="Test Geometry">
+    <g
+       transform="matrix(1,0,0,-1,371.95402,665.51165)"
+       id="test_path_container">
+      <path
+         id="path5382"
+         d="M -100,-100 L 0,-500 L 100,-100 L 500,0 L 100,100 L 0,500 L -100,100 L -500,0 Z"
+         style="fill:none;stroke:#0000ff;stroke-width:0.35433072;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         class="test_path"
+         inkscape:connector-curvature="0" />
+      <g
+         inkscape:label="Test Result"
+         inkscape:groupmode="layer"
+         id="test result" ><path class="vc" style="fill-rule:non-zero;fill-opacity:0.7;fill:#7d1212;stroke:yellow;stroke-width:0.45;" d="M-500,0L-100,100L0,500L0,500L0,500L0,500L0,500L0,500L0,500L100,100L500,0L500,0L500,0L500,0L500,0L500,0L500,0L100,-100L0,-500L0,-500L0,-500L0,-500L0,-500L0,-500L0,-500L-100,-100L-500,-9.31322574615479e-14L-500,0L-500,0L-500,0L-500,0L-500,0ZM-500.000000,-0.000000L-666.666667,666.666667L-666.666667,666.666667L-666.666667,-666.666667L-500.000000,-0.000000L-666.666667,-666.666667L-100.000000,-100.000000L-666.666667,-666.666667L-0.000000,-500.000000L-666.666667,-666.666667L-666.666667,-666.666667L666.666667,-666.666667L-0.000000,-500.000000L666.666667,-666.666667L100.000000,-100.000000L666.666667,-666.666667L500.000000,0.000000L666.666667,-666.666667L666.666667,-666.666667L666.666667,666.666667L500.000000,0.000000L666.666667,666.666667L100.000000,100.000000L666.666667,666.666667L-0.000000,500.000000L666.666667,666.666667L666.666667,666.666667L-666.666667,666.666667L-0.000000,500.000000L-666.666667,666.666667L-100.000000,100.000000L-666.666667,666.666667L-500.000000,-0.000000Z" />
+<path class="vc" style="fill-rule:non-zero;fill-opacity:0.7;fill:#d9d9ff;stroke:yellow;stroke-width:0.45;" d="M-100,-100L-100,-100L-100,-100L-100,-100L-100,-100L-100,-100L0,-500L100,-100L100,-100L100,-100L100,-100L100,-100L100,-100L100,-100L500,0L100,100L100,100L100,100L100,100L100,100L100,100L100,100L0,500L-100,100L-100,100L-100,100L-100,100L-100,100L-100,100L-100,100L-500,0L-100,-100ZM-75.000000,0.000000L-500.000000,-0.000000L-75.000000,0.000000L-100.000000,100.000000L-75.000000,0.000000L-0.000000,-0.000000L0.000000,75.000000L-100.000000,100.000000L0.000000,75.000000L-0.000000,500.000000L0.000000,75.000000L100.000000,100.000000L0.000000,75.000000L-0.000000,-0.000000L75.000000,-0.000000L100.000000,100.000000L75.000000,-0.000000L500.000000,0.000000L75.000000,-0.000000L100.000000,-100.000000L75.000000,-0.000000L-0.000000,-0.000000L0.000000,-75.000000L100.000000,-100.000000L0.000000,-75.000000L-0.000000,-500.000000L0.000000,-75.000000L-100.000000,-100.000000L0.000000,-75.000000L-0.000000,-0.000000L-75.000000,0.000000L-100.000000,-100.000000L-75.000000,0.000000Z" />
+<g inkscape:groupmode="layer" inkscape:label="external secondary" id="external secondary">
+<g>
+<path class="vp" id="33186704" previd="33186832" nextid="33190928" style="stroke:orange;color:orange;"  color="silver" marker-end="url(#edge_arrow)" d="M-500.000000,-0.000000L-666.666667,666.666667" />
+<circle id="33186704_foot" cx="-500" cy="0" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33186832" previd="33188880" nextid="33186704" style="stroke:orange;color:orange;"  color="silver" marker-end="url(#edge_arrow)" d="M-666.666667,666.666667L-500.000000,-0.000000" />
+<circle id="33186832_foot" cx="-500" cy="0" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33186960" previd="33190544" nextid="33187088" style="stroke:orange;color:orange;"  color="silver" marker-end="url(#edge_arrow)" d="M-666.666667,-666.666667L-500.000000,-0.000000" />
+<circle id="33186960_foot" cx="-500" cy="0" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33187088" previd="33186960" nextid="33188240" style="stroke:orange;color:orange;"  color="silver" marker-end="url(#edge_arrow)" d="M-500.000000,-0.000000L-666.666667,-666.666667" />
+<circle id="33187088_foot" cx="-500" cy="0" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33189008" previd="33188368" nextid="33189136" style="stroke:orange;color:orange;"  color="silver" marker-end="url(#edge_arrow)" d="M-666.666667,-666.666667L-0.000000,-500.000000" />
+<circle id="33189008_foot" cx="0" cy="-500" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33189136" previd="33189008" nextid="33190672" style="stroke:orange;color:orange;"  color="silver" marker-end="url(#edge_arrow)" d="M-0.000000,-500.000000L-666.666667,-666.666667" />
+<circle id="33189136_foot" cx="0" cy="-500" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33189264" previd="33189392" nextid="33188752" style="stroke:orange;color:orange;"  color="silver" marker-end="url(#edge_arrow)" d="M-0.000000,500.000000L-666.666667,666.666667" />
+<circle id="33189264_foot" cx="0" cy="500" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33189392" previd="33190800" nextid="33189264" style="stroke:orange;color:orange;"  color="silver" marker-end="url(#edge_arrow)" d="M-666.666667,666.666667L-0.000000,500.000000" />
+<circle id="33189392_foot" cx="0" cy="500" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33189520" previd="33194384" nextid="33189648" style="stroke:orange;color:orange;"  color="silver" marker-end="url(#edge_arrow)" d="M666.666667,-666.666667L-0.000000,-500.000000" />
+<circle id="33189520_foot" cx="0" cy="-500" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33189648" previd="33189520" nextid="33192080" style="stroke:orange;color:orange;"  color="silver" marker-end="url(#edge_arrow)" d="M-0.000000,-500.000000L666.666667,-666.666667" />
+<circle id="33189648_foot" cx="0" cy="-500" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33190032" previd="33190160" nextid="33194768" style="stroke:orange;color:orange;"  color="silver" marker-end="url(#edge_arrow)" d="M-0.000000,500.000000L666.666667,666.666667" />
+<circle id="33190032_foot" cx="0" cy="500" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33190160" previd="33192720" nextid="33190032" style="stroke:orange;color:orange;"  color="silver" marker-end="url(#edge_arrow)" d="M666.666667,666.666667L-0.000000,500.000000" />
+<circle id="33190160_foot" cx="0" cy="500" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33193872" previd="33192208" nextid="33194000" style="stroke:orange;color:orange;"  color="silver" marker-end="url(#edge_arrow)" d="M666.666667,-666.666667L500.000000,0.000000" />
+<circle id="33193872_foot" cx="500" cy="0" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33194000" previd="33193872" nextid="33194512" style="stroke:orange;color:orange;"  color="silver" marker-end="url(#edge_arrow)" d="M500.000000,0.000000L666.666667,-666.666667" />
+<circle id="33194000_foot" cx="500" cy="0" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33194128" previd="33194640" nextid="33194256" style="stroke:orange;color:orange;"  color="silver" marker-end="url(#edge_arrow)" d="M666.666667,666.666667L500.000000,0.000000" />
+<circle id="33194128_foot" cx="500" cy="0" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33194256" previd="33194128" nextid="33192592" style="stroke:orange;color:orange;"  color="silver" marker-end="url(#edge_arrow)" d="M500.000000,0.000000L666.666667,666.666667" />
+<circle id="33194256_foot" cx="500" cy="0" r="0.9" style="fill:green" />
+</g>
+</g><g inkscape:groupmode="layer" inkscape:label="external primary" id="external primary">
+<g>
+<path class="vp" id="33188240" previd="33187088" nextid="33188368" style="stroke:red;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M-666.666667,-666.666667L-100.000000,-100.000000" />
+<circle id="33188240_foot" cx="-500" cy="-9.31322574615479e-14" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33188368" previd="33188240" nextid="33189008" style="stroke:red;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M-100.000000,-100.000000L-666.666667,-666.666667" />
+<circle id="33188368_foot" cx="-100" cy="-100" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33188752" previd="33189264" nextid="33188880" style="stroke:red;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M-666.666667,666.666667L-100.000000,100.000000" />
+<circle id="33188752_foot" cx="0" cy="500" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33188880" previd="33188752" nextid="33186832" style="stroke:red;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M-100.000000,100.000000L-666.666667,666.666667" />
+<circle id="33188880_foot" cx="-100" cy="100" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="33190544" previd="33190928" nextid="33186960" style="stroke:red;color:blue;" marker-end="url(#inf_edge_arrow)" d="M-933.333333,-933.333333L-666.666667,-666.666667" />
+<circle id="33190544_foot" cx="-500" cy="0" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="33190672" previd="33189136" nextid="33194384" style="stroke:red;color:blue;" marker-end="url(#inf_edge_arrow)" d="M-666.666667,-666.666667L-933.333333,-933.333333" />
+<circle id="33190672_foot" cx="0" cy="-500" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="33190800" previd="33194768" nextid="33189392" style="stroke:red;color:blue;" marker-end="url(#inf_edge_arrow)" d="M-933.333333,933.333333L-666.666667,666.666667" />
+<circle id="33190800_foot" cx="0" cy="500" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="33190928" previd="33186704" nextid="33190544" style="stroke:red;color:blue;" marker-end="url(#inf_edge_arrow)" d="M-666.666667,666.666667L-933.333333,933.333333" />
+<circle id="33190928_foot" cx="-500" cy="0" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33192080" previd="33189648" nextid="33192208" style="stroke:red;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M666.666667,-666.666667L100.000000,-100.000000" />
+<circle id="33192080_foot" cx="0" cy="-500" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33192208" previd="33192080" nextid="33193872" style="stroke:red;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M100.000000,-100.000000L666.666667,-666.666667" />
+<circle id="33192208_foot" cx="100" cy="-100" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33192592" previd="33194256" nextid="33192720" style="stroke:red;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M666.666667,666.666667L100.000000,100.000000" />
+<circle id="33192592_foot" cx="500" cy="0" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33192720" previd="33192592" nextid="33190160" style="stroke:red;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M100.000000,100.000000L666.666667,666.666667" />
+<circle id="33192720_foot" cx="100" cy="100" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="33194384" previd="33190672" nextid="33189520" style="stroke:red;color:blue;" marker-end="url(#inf_edge_arrow)" d="M933.333333,-933.333333L666.666667,-666.666667" />
+<circle id="33194384_foot" cx="0" cy="-500" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="33194512" previd="33194000" nextid="33194640" style="stroke:red;color:blue;" marker-end="url(#inf_edge_arrow)" d="M666.666667,-666.666667L933.333333,-933.333333" />
+<circle id="33194512_foot" cx="500" cy="0" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="33194640" previd="33194512" nextid="33194128" style="stroke:red;color:blue;" marker-end="url(#inf_edge_arrow)" d="M933.333333,933.333333L666.666667,666.666667" />
+<circle id="33194640_foot" cx="500" cy="0" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp inf" id="33194768" previd="33190032" nextid="33190800" style="stroke:red;color:blue;" marker-end="url(#inf_edge_arrow)" d="M666.666667,666.666667L933.333333,933.333333" />
+<circle id="33194768_foot" cx="0" cy="500" r="0.9" style="fill:green" />
+</g>
+</g><g inkscape:groupmode="layer" inkscape:label="internal secondary" id="internal secondary">
+<g>
+<path class="vp" id="33187472" previd="33187600" nextid="33187216" style="stroke:green;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M-100.000000,-100.000000L-75.000000,0.000000" />
+<circle id="33187472_foot" cx="-100" cy="-100" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33187600" previd="33191056" nextid="33187472" style="stroke:green;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M-75.000000,0.000000L-100.000000,-100.000000" />
+<circle id="33187600_foot" cx="-100" cy="-100" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33187728" previd="33187344" nextid="33187856" style="stroke:green;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M-75.000000,0.000000L-100.000000,100.000000" />
+<circle id="33187728_foot" cx="-100" cy="100" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33187856" previd="33187728" nextid="33191184" style="stroke:green;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M-100.000000,100.000000L-75.000000,0.000000" />
+<circle id="33187856_foot" cx="-100" cy="100" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33187984" previd="33188112" nextid="33192976" style="stroke:green;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M-100.000000,-100.000000L0.000000,-75.000000" />
+<circle id="33187984_foot" cx="-100" cy="-100" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33188112" previd="33189904" nextid="33187984" style="stroke:green;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M0.000000,-75.000000L-100.000000,-100.000000" />
+<circle id="33188112_foot" cx="-100" cy="-100" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33188496" previd="33193104" nextid="33188624" style="stroke:green;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M0.000000,75.000000L-100.000000,100.000000" />
+<circle id="33188496_foot" cx="-100" cy="100" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33188624" previd="33188496" nextid="33190288" style="stroke:green;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M-100.000000,100.000000L0.000000,75.000000" />
+<circle id="33188624_foot" cx="-100" cy="100" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33191312" previd="33191440" nextid="33189776" style="stroke:green;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M100.000000,-100.000000L0.000000,-75.000000" />
+<circle id="33191312_foot" cx="100" cy="-100" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33191440" previd="33192848" nextid="33191312" style="stroke:green;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M0.000000,-75.000000L100.000000,-100.000000" />
+<circle id="33191440_foot" cx="100" cy="-100" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33191568" previd="33190416" nextid="33191696" style="stroke:green;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M0.000000,75.000000L100.000000,100.000000" />
+<circle id="33191568_foot" cx="100" cy="100" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33191696" previd="33191568" nextid="33193232" style="stroke:green;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M100.000000,100.000000L0.000000,75.000000" />
+<circle id="33191696_foot" cx="100" cy="100" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33191824" previd="33191952" nextid="33193360" style="stroke:green;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M100.000000,-100.000000L75.000000,-0.000000" />
+<circle id="33191824_foot" cx="100" cy="-100" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33191952" previd="33193616" nextid="33191824" style="stroke:green;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M75.000000,-0.000000L100.000000,-100.000000" />
+<circle id="33191952_foot" cx="100" cy="-100" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33192336" previd="33193488" nextid="33192464" style="stroke:green;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M75.000000,-0.000000L100.000000,100.000000" />
+<circle id="33192336_foot" cx="100" cy="100" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33192464" previd="33192336" nextid="33193744" style="stroke:green;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M100.000000,100.000000L75.000000,-0.000000" />
+<circle id="33192464_foot" cx="100" cy="100" r="0.9" style="fill:green" />
+</g>
+</g><g inkscape:groupmode="layer" inkscape:label="internal primary" id="internal primary">
+<g>
+<path class="vp" id="33187216" previd="33187472" nextid="33187344" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M-75.000000,0.000000L-500.000000,-0.000000" />
+<circle id="33187216_foot" cx="-100" cy="-100" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33187344" previd="33187216" nextid="33187728" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M-500.000000,-0.000000L-75.000000,0.000000" />
+<circle id="33187344_foot" cx="-500" cy="0" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33189776" previd="33191312" nextid="33189904" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M0.000000,-75.000000L-0.000000,-500.000000" />
+<circle id="33189776_foot" cx="100" cy="-100" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33189904" previd="33189776" nextid="33188112" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M-0.000000,-500.000000L0.000000,-75.000000" />
+<circle id="33189904_foot" cx="0" cy="-500" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33190288" previd="33188624" nextid="33190416" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M0.000000,75.000000L-0.000000,500.000000" />
+<circle id="33190288_foot" cx="-100" cy="100" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33190416" previd="33190288" nextid="33191568" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M-0.000000,500.000000L0.000000,75.000000" />
+<circle id="33190416_foot" cx="0" cy="500" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33191056" previd="33192976" nextid="33187600" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M-0.000000,-0.000000L-75.000000,0.000000" />
+<circle id="33191056_foot" cx="-100" cy="-100" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33191184" previd="33187856" nextid="33193104" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M-75.000000,0.000000L-0.000000,-0.000000" />
+<circle id="33191184_foot" cx="-100" cy="100" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33192848" previd="33193360" nextid="33191440" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M-0.000000,-0.000000L0.000000,-75.000000" />
+<circle id="33192848_foot" cx="100" cy="-100" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33192976" previd="33187984" nextid="33191056" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M0.000000,-75.000000L-0.000000,-0.000000" />
+<circle id="33192976_foot" cx="-100" cy="-100" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33193104" previd="33191184" nextid="33188496" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M-0.000000,-0.000000L0.000000,75.000000" />
+<circle id="33193104_foot" cx="-100" cy="100" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33193232" previd="33191696" nextid="33193488" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M0.000000,75.000000L-0.000000,-0.000000" />
+<circle id="33193232_foot" cx="100" cy="100" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33193360" previd="33191824" nextid="33192848" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M75.000000,-0.000000L-0.000000,-0.000000" />
+<circle id="33193360_foot" cx="100" cy="-100" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33193488" previd="33193232" nextid="33192336" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M-0.000000,-0.000000L75.000000,-0.000000" />
+<circle id="33193488_foot" cx="100" cy="100" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33193616" previd="33193744" nextid="33191952" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M500.000000,0.000000L75.000000,-0.000000" />
+<circle id="33193616_foot" cx="500" cy="0" r="0.9" style="fill:green" />
+</g>
+<g>
+<path class="vp" id="33193744" previd="33192464" nextid="33193616" style="stroke:blue;color:blue;"  color="silver" marker-end="url(#edge_arrow)" d="M75.000000,-0.000000L500.000000,0.000000" />
+<circle id="33193744_foot" cx="100" cy="100" r="0.9" style="fill:green" />
+</g>
+</g><g inkscape:groupmode="layer" inkscape:label="limbo 2ndary" id="limbo 2ndary">
+</g><g inkscape:groupmode="layer" inkscape:label="limbo primary" id="limbo primary">
+</g></g>
+    </g>
+    <text
+       test_scale="text3430"
+       sodipodi:linespacing="125%"
+       id="test_scale"
+       y="1030.0981"
+       x="802.98932"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="1030.0981"
+         x="802.98932"
+         id="tspan3438"
+         sodipodi:role="line">10000</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3434"
+       y="978.14874"
+       x="810.41071"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="978.14874"
+         x="810.41071"
+         id="tspan3436"
+         sodipodi:role="line">scale:</tspan></text>
+  </g>
+</svg>
